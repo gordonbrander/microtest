@@ -5,7 +5,7 @@ source = {
   url = "git://github.com/gordonbrander/microtest"
 }
 description = {
-  summary = "Unit testing so simple, you can copy/paste it",
+  summary = "Unit testing so small you can copy/paste it",
   homepage = "https://github.com/gordonbrander/microtest",
   license = "MIT/X11"
 }

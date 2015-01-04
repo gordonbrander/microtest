@@ -1,4 +1,7 @@
-Microtest: Lua unit testing so minimal it can be copy/pasted.
+Microtest
+=========
+
+Unit testing so small you can copy/paste it.
 
 How to use:
 

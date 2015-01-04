@@ -1,5 +1,8 @@
 --[[
-Microtest: Lua unit testing so minimal it can be copy/pasted.
+Microtest
+=========
+
+Unit testing so small you can copy/paste it.
 
 How to use:
 
@@ -10,7 +13,7 @@ You can optionally provide your own custom loggers:
 
     local test, ok = microtest(log_pass, log_fail, log_info)
 
-Microtest is all syncronous because Lua is never async.
+Microtest is syncronous because Lua is never async.
 ]]--
 
 
