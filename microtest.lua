@@ -17,8 +17,8 @@ Microtest is syncronous because Lua is never async.
 ]]--
 
 
-local function get_debug_msg()
-  return debug.getinfo(2, 'S').short_src..":"..debug.getinfo(2, 'l').currentline
+local function get_debug_msg(f)
+  return debug.getinfo(3, 'S').short_src..":"..debug.getinfo(3, 'l').currentline
 end
 
 -- Create loggers using this higher-order factory.
